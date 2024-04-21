@@ -56,6 +56,20 @@ h6 {
     margin-bottom: 15px;
 }
 
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    transition: opacity .2s, visibility .2s;
+}
+
 #cover-image {
     opacity: 1;
     display: block;
@@ -65,7 +79,8 @@ h6 {
     backface-visibility: hidden;
 }
 
-#cover-image:hover {
+#cover-image:hover .img__description{
+    visibility: visible;
     opacity: 0.3;
 }
 
