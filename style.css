@@ -56,6 +56,12 @@ h6 {
     margin-bottom: 15px;
 }
 
+.img__wrap {
+    position: relative;
+    height: 4000px;
+    width: 6000px;
+}
+
 .img__description {
     position: absolute;
     top: 0;
@@ -79,7 +85,7 @@ h6 {
     backface-visibility: hidden;
 }
 
-#cover-image:hover .img__description{
+.img__wrap:hover .img__description{
     visibility: visible;
     opacity: 0.3;
 }
