@@ -52,9 +52,9 @@ h6 {
     margin: 40px;
 }
 
-.img-fluid {
+/* .img-fluid {
     margin-bottom: 15px;
-}
+} */
 
 .img__wrap {
     position: relative;
@@ -64,12 +64,10 @@ h6 {
 
 .img__description {
     position: absolute;
-    height: 600px;
-    width: 900px;
-    top: 200px;
+    top: 0;
     bottom: 0;
     left: 0;
-    right: 300px;
+    right: 0;
     background: #0E2032;
     color: #fff;
     visibility: hidden;
