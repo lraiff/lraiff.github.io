@@ -58,12 +58,14 @@ h6 {
 
 .img__wrap {
     position: relative;
-    height: 800px;
-    width: 1200px;
+    height: 600px;
+    width: 900px;
 }
 
 .img__description {
     position: absolute;
+    height: 600px;
+    width: 900px;
     top: 200px;
     bottom: 0;
     left: 0;
