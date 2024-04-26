@@ -58,16 +58,16 @@ h6 {
 
 .img__wrap {
     position: relative;
-    height: 400px;
-    width: 600px;
+    height: 800px;
+    width: 1200px;
 }
 
 .img__description {
     position: absolute;
-    top: 0;
+    top: 200px;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 300px;
     background: #0E2032;
     color: #fff;
     visibility: hidden;
@@ -87,7 +87,8 @@ h6 {
 
 .img__wrap:hover .img__description{
     visibility: visible;
-    opacity: 0.3;
+    opacity: 0.7;
+    font-family: 'Archivo', sans-serif;
 }
 
 #instagram_icon {
